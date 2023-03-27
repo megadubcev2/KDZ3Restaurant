@@ -1,0 +1,78 @@
+[{
+  "prodItemId": 191,
+  "prodItemType": 11,
+  "prodItemName": "Frozen chicken",
+  "prodItemCompany": "AO OMPK",
+  "prodItemUnit": "kilo",
+  "prodItemQuantity": 15.3,
+  "prodItemCost": 190,
+  "prodItemDelivered": "2023-01-12T08:12:36",
+  "prodItemValidUntil": "2023-12-31T23:59:59"
+},
+  {
+    "prodItemId": 172,
+    "prodItemType ": 18,
+    "prodItemName": "Princess Nuri tea in bags",
+    "prodItemCompany": "ORIMI",
+    "prodItemUnit": "pc.",
+    "prodItemQuantity": 874,
+    "prodItemCost": 1.5,
+    "prodItemDelivered": "2023-01-15T08:10:36",
+    "prodItemValidUntil": "2024-12-31T23:59:59"
+  },
+  {
+    "prodItemId": 132,
+    "prodItemType": 22,
+    "prodItemName": "Can of cola 0.33",
+    "prodItemCompany": "Vimm-Bill-Dann",
+    "prodItemUnit": "pc.",
+    "prodItemQuantity": 0,
+    "prodItemCost": 39,
+    "prodItemDelivered": "2023-01-11T09:22:36",
+    "prodItemValidUntil": "2025-12-31T23:59:59"
+  } ,
+  {
+    "prodItemId": 213,
+    "prodItemType ": 23,
+    "prodItemName": "Russian sugar in sticks",
+    "prodItemCompany": "Russian sugar",
+    "prodItemUnit": "pc.",
+    "prodItemQuantity": 952,
+    "prodItemCost": 0.4,
+    "prodItemDelivered": "2023-01-11T09:19:31",
+    "prodItemValidUntil": "2025-12-31T23:59:59"
+  } ,
+  {
+    "prodItemId": 251,
+    "prodItemType": 24,
+    "prodItemName": "Drinking water Suzdalskaya",
+    "prodItemCompany": "Suzdalskie napitki",
+    "prodItemUnit": "L",
+    "prodItemQuantity": 174.22,
+    "prodItemCost": 11.45,
+    "prodItemDelivered": "2023-01-11T09:19:31",
+    "prodItemValidUntil": "2025-12-31T23:59:59"
+  },
+  {
+    "prodItemId": 133,
+    "prodItemType": 12,
+    "prodItemName": "Paper cup 0.2",
+    "prodItemCompany": "OOO KartonEco",
+    "prodItemUnit": "pc.",
+    "prodItemQuantity": 1032,
+    "prodItemCost": 0.45,
+    "prodItemDelivered": "2023-01-12T08:12:36",
+    "prodItemValidUntil": "2026-12-31T23:59:59"
+  },
+  {
+    "prodItemId": 139,
+    "prodItemType": 19,
+    "prodItemName": "Plastic stirrer",
+    "prodItemCompany": "Monplast EOOD",
+    "prodItemUnit": "pc.",
+    "prodItemQuantity": 12874,
+    "prodItemCost": 0.19,
+    "prodItemDelivered": "2023-01-12T08:10:36",
+    "prodItemValidUntil": "2026-12-31T23:59:59"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cardId": 518,
+    "dishName": "Princess Nuri tea bag in a paper cup",
+    "cardDescr": "pouring boiled water into a paper cup + 2 bags of sugar",
+    "cardTime": 0.15,
+    "equipType": 25,
+    "operations": [
+      {
+        "operType": 17,
+        "equipType": 25,
+        "operTime": 0.15,
+        "operAsyncPoint": 0,
+        "operProducts": [
+          {
+            "prodType": 18,
+            "prodQuantity": 1
+          },
+          {
+            "prodType": 23,
+            "prodQuantity": 2
+          },
+          {
+            "prodType": 24,
+            "prodQuantity": 0.2
+          },
+          {
+            "prodType": 12,
+            "prodQuantity": 1
+          },
+          {
+            "prodType": 19,
+            "prodQuantity": 1
+          }
+        ]
+      }
+    ]
+  }
+]

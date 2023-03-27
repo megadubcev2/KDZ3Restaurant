@@ -1,0 +1,36 @@
+[{
+  "prodTypeId": 11,
+  "prodTypeName": "Frozen chicken",
+  "prodIsFood": true
+},
+  {
+    "prodTypeId": 18,
+    "prodTypeName": "Black tea in bags",
+    "prodIsFood": true
+  },
+  {
+    "prodTypeId": 22,
+    "prodTypeName": "Can of cola 0.33",
+    "prodIsFood": true
+  } ,
+  {
+    "prodTypeId": 23,
+    "prodTypeName": "Sugar in sticks",
+    "prodIsFood": true
+  } ,
+  {
+    "prodTypeId": 24,
+    "prodTypeName": "Drinking water",
+    "prodIsFood": true
+  } ,
+  {
+    "prodTypeId": 12,
+    "prodTypeName": "Paper cup 0.2",
+    "prodIsFood": false
+  },
+  {
+    "prodTypeId": 19,
+    "prodTypeName": "Plastic stirrer",
+    "prodIsFood": false
+  }
+]
