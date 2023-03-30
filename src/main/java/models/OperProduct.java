@@ -4,20 +4,19 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
 @JsonAutoDetect
 public class OperProduct {
-    private int prodTypeId;
+    private int prodType;
     private double prodQuantity;
 
-    public OperProduct(int prodTypeId, double prodQuantity) {
-        this.prodTypeId = prodTypeId;
+    public OperProduct(int prodType, double prodQuantity) {
+        this.prodType = prodType;
         this.prodQuantity = prodQuantity;
     }
 
     public OperProduct(){
-
     }
 
-    public int getProdTypeId() {
-        return prodTypeId;
+    public int getProdType() {
+        return prodType;
     }
 
     public double getProdQuantity() {

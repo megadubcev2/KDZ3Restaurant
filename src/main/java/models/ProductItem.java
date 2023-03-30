@@ -2,6 +2,8 @@ package models;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
+import java.util.Date;
+
 @JsonAutoDetect
 public class ProductItem {
     private int prodItemId;
@@ -11,10 +13,10 @@ public class ProductItem {
     private String prodItemUnit;
     private double prodItemQuantity;
     private double prodItemCost;
-    private String prodItemDelivered;
+    private Date prodItemDelivered;
     private String prodItemValidUntil;
 
-    public ProductItem(int prodItemId, int prodItemType, String prodItemName, String prodItemCompany, String prodItemUnit, double prodItemQuantity, double prodItemCost, String prodItemDelivered, String prodItemValidUntil) {
+    public ProductItem(int prodItemId, int prodItemType, String prodItemName, String prodItemCompany, String prodItemUnit, double prodItemQuantity, double prodItemCost, Date prodItemDelivered, String prodItemValidUntil) {
         this.prodItemId = prodItemId;
         this.prodItemType = prodItemType;
         this.prodItemName = prodItemName;
@@ -58,7 +60,7 @@ public class ProductItem {
         return prodItemCost;
     }
 
-    public String getProdItemDelivered() {
+    public Date getProdItemDelivered() {
         return prodItemDelivered;
     }
 

@@ -4,13 +4,13 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
 @JsonAutoDetect
 public class ProductType {
-    private int productTypeId;
-    private String productTypeName;
+    private int prodTypeId;
+    private String prodTypeName;
     private boolean prodIsFood;
 
-    public ProductType(int productTypeId, String productTypeName, boolean prodIsFood) {
-        this.productTypeId = productTypeId;
-        this.productTypeName = productTypeName;
+    public ProductType(int prodTypeId, String prodTypeName, boolean prodIsFood) {
+        this.prodTypeId = prodTypeId;
+        this.prodTypeName = prodTypeName;
         this.prodIsFood = prodIsFood;
     }
 
@@ -18,12 +18,12 @@ public class ProductType {
 
     }
 
-    public int getProductTypeId() {
-        return productTypeId;
+    public int getProdTypeId() {
+        return prodTypeId;
     }
 
-    public String getProductTypeName() {
-        return productTypeName;
+    public String getProdTypeName() {
+        return prodTypeName;
     }
 
     public boolean isProdIsFood() {

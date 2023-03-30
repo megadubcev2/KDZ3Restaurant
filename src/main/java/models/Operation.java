@@ -8,11 +8,12 @@ import java.util.List;
 @JsonAutoDetect
 public class Operation {
     private int operType;
+    private int equipType;
     private double operTime;
     private int operAsyncPoint;
     private List<OperProduct> operProducts;
 
-    public Operation(int operType, double operTime, int operAsyncPoint, List<OperProduct> operProducts) {
+    public Operation(int operType,int equipType, double operTime, int operAsyncPoint, List<OperProduct> operProducts) {
         this.operType = operType;
         this.operTime = operTime;
         this.operAsyncPoint = operAsyncPoint;
@@ -27,6 +28,10 @@ public class Operation {
         return operType;
     }
 
+    public int getEquipType(){
+        return equipType;
+    }
+
     public double getOperTime() {
         return operTime;
     }
@@ -39,4 +44,3 @@ public class Operation {
         return operProducts;
     }
 }
-//

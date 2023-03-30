@@ -1,0 +1,20 @@
+[
+  {
+    "equipId": 12,
+    "equipType": 2,
+    "equipName": "LIDER 250",
+    "equipActive": true
+  },
+  {
+    "equipId": 13,
+    "equipType": 2,
+    "equipName": "LIDER 150",
+    "equipActive": false
+  },
+  {
+    "equipId": 14,
+    "equipType": 25,
+    "equipName": "DAZHENG LOOKYAMI",
+    "equipActive": true
+  }
+]

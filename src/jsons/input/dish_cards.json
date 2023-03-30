@@ -4,7 +4,6 @@
     "dishName": "Princess Nuri tea bag in a paper cup",
     "cardDescr": "pouring boiled water into a paper cup + 2 bags of sugar",
     "cardTime": 0.15,
-    "equipType": 25,
     "operations": [
       {
         "operType": 17,

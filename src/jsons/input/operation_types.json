@@ -1,7 +1,8 @@
-[{
-  "operTypeId": 1,
-  "operTypeName": "frying"
-},
+[
+  {
+    "operTypeId": 1,
+    "operTypeName": "frying"
+  },
   {
     "operTypeId": 17,
     "operTypeName": "pouring boiled water into a paper cup"

@@ -10,15 +10,13 @@ public class DishCard {
     private String dishName;
     private String cardDescr;
     private double cardTime;
-    private int equipType;
     private List<Operation> operations;
 
-    public DishCard(int cardId, String dishName, String cardDescr, double cardTime, int equipType, List<Operation> operations) {
+    public DishCard(int cardId, String dishName, String cardDescr, double cardTime, List<Operation> operations) {
         this.cardId = cardId;
         this.dishName = dishName;
         this.cardDescr = cardDescr;
         this.cardTime = cardTime;
-        this.equipType = equipType;
         this.operations = operations;
     }
 
@@ -41,9 +39,6 @@ public class DishCard {
         return cardTime;
     }
 
-    public int getEquipType() {
-        return equipType;
-    }
 
     public List<Operation> getOperations() {
         return operations;

@@ -1,18 +1,16 @@
 package models;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.AllArgsConstructor;
 
 @JsonAutoDetect
 public class MenuDish {
     private int menuDishId;
     private int menuDishCard;
-    private int menuDishPrice;
+    private double menuDishPrice;
     private boolean menuDiShActive;
 
 
-    public MenuDish(int menuDishId, int menuDishCard, int menuDishPrice, boolean menuDiShActive) {
+    public MenuDish(int menuDishId, int menuDishCard, double menuDishPrice, boolean menuDiShActive) {
         this.menuDishId = menuDishId;
         this.menuDishCard = menuDishCard;
         this.menuDishPrice = menuDishPrice;
@@ -32,7 +30,7 @@ public class MenuDish {
         return menuDishCard;
     }
 
-    public int getMenuDishPrice() {
+    public double getMenuDishPrice() {
         return menuDishPrice;
     }
 

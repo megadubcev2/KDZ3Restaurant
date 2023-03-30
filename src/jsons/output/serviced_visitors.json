@@ -1,0 +1,38 @@
+[
+  {
+    "visName": " Visitor124",
+    "visStarted": "2023-03-30 13:13:00 PM UTC",
+    "visEnded": "2023-03-30 13:13:04 PM UTC",
+    "visTotal": 59.0,
+    "visDishes": [
+      {
+        "menuDishId": 28,
+        "menuDishCard": 518,
+        "menuDishPrice": 59.0,
+        "menuDiShActive": true
+      }
+    ],
+    "isEnded": true
+  },
+  {
+    "visName": " Visitor123",
+    "visStarted": "2023-03-30 13:13:00 PM UTC",
+    "visEnded": "2023-03-30 13:13:08 PM UTC",
+    "visTotal": 118.0,
+    "visDishes": [
+      {
+        "menuDishId": 28,
+        "menuDishCard": 518,
+        "menuDishPrice": 59.0,
+        "menuDiShActive": true
+      },
+      {
+        "menuDishId": 28,
+        "menuDishCard": 518,
+        "menuDishPrice": 59.0,
+        "menuDiShActive": true
+      }
+    ],
+    "isEnded": true
+  }
+]
