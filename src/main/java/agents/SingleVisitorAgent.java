@@ -2,15 +2,13 @@ package agents;
 
 import models.Visitor;
 
-import java.io.IOException;
 import java.util.Date;
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 public class SingleVisitorAgent extends Thread {
-    private Visitor visitor;
-    private VisitorsAgent visitorsAgent;
-    private ManagerAgent managerAgent;
+    private final Visitor visitor;
+    private final VisitorsAgent visitorsAgent;
+    private final ManagerAgent managerAgent;
 
     public SingleVisitorAgent(Visitor visitor, VisitorsAgent visitorsAgent, ManagerAgent managerAgent) {
         this.visitorsAgent = visitorsAgent;

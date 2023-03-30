@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Logout {
 
-    private String servicedVisitorsFilePath;
+    private final String servicedVisitorsFilePath;
 
     public Logout(String servicedVisitorsFilePath) {
         this.servicedVisitorsFilePath = servicedVisitorsFilePath;
